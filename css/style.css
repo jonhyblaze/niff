@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+
+.hero-bg {
+    background: #79ADCC url('/img/bg.png');
+    color: white;
+    background-position: 100% 39%;
+    background-size: cover;
+    padding-bottom: 15em;
+    padding-top: 0.1em;
+    
+}
+
+
+.heading {
+    display: block;
+    text-align: left;
+    margin: 7em 0 0 5em;
+    float: none;
+
+}
+        .heading h1 {
+            font-size: 2.4em;
+
+        }
+
+        .heading h5 {
+            font-weight: 400;
+            font-size: 1.2em;
+        }
+
+
+
+
+.festlogo {
+    margin-left: 5em;
+    margin-top: 1.9em;
+}
+
+.list-menu {
+    display: block;
+    margin: 0 2em 0em 0em;
+    float: right;
+    text-align: center;
+    flex: auto;
+}
+
+.top li {
+    display: inline;
+    padding: 2em;
+    
+}
+
+.submit {
+    display: block;
+    background: black;
+    padding-top: 3em;
+    border-radius: 24px;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 3em;
+}
