@@ -1,67 +1,265 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
 
-body {
-    font-family: 'Open Sans', sans-serif;
+
+*{
+    box-sizing: border-box;
+    padding: 0;
     margin: 0;
 }
 
 
-.hero-bg {
-    background: #79ADCC url('/img/bg.png');
-    color: white;
-    background-position: 100% 39%;
-    background-size: cover;
-    padding-bottom: 15em;
-    padding-top: 0.1em;
-    
-}
-
-
-.heading {
-    display: block;
-    text-align: left;
-    margin: 7em 0 0 5em;
-    float: none;
-
-}
-        .heading h1 {
-            font-size: 2.4em;
-
-        }
-
-        .heading h5 {
-            font-weight: 400;
-            font-size: 1.2em;
-        }
-
-
-
-
-.festlogo {
-    margin-left: 5em;
-    margin-top: 1.9em;
-}
-
-.list-menu {
-    display: block;
-    margin: 0 2em 0em 0em;
-    float: right;
-    text-align: center;
-    flex: auto;
-}
-
-.top li {
-    display: inline;
-    padding: 2em;
-    
-}
-
-.submit {
-    display: block;
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
     background: black;
-    padding-top: 3em;
-    border-radius: 24px;
-    flex-direction: row;
-    align-items: flex-start;
-    margin: 3em;
+    width: 1440px;
+    height: 3535px;
+    position: relative;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+    .first-page {
+        background: #79ADCC url('/img/bg.png');
+        background-position: 100% 39%;
+        background-size: cover;
+        padding-bottom: 15em;
+        padding-top: 0.1em;
+    
+}
+        .festlogo {
+            margin-left: 3em;
+            margin-top: 1em;
+            width: 12em;
+        }
+        
+
+        nav {
+            display: block;
+            text-decoration: none;
+            color: white;
+            margin: 0 0 0 0;
+            float: right;
+            text-align: center;
+            flex: auto;
+            text-decoration: none;
+            
+        }
+
+        .top {
+            display: inherit;
+            padding: 1.2em 0 0 2em ;
+            text-decoration: none;       
+        }
+
+                li{
+                    color: white;
+                    text-decoration: none;
+                    display: inline;
+                    padding: 0 1.8em;
+                }
+                        .submit {
+                            background: black;
+                            padding: 0.35em 1.1em;
+                            border-radius: 50px;
+                            flex-direction: row;
+                            align-items: flex-start;
+                            margin: 0em;
+                        }
+                        .prog {
+                            margin: 0 -0.8em 0 1em;
+                        }
+                        .jur{
+                            margin: 0 1.5em 0 0;
+                        }
+                       
+        .heading {
+            display: block;
+            text-align: left;
+            margin: 7em 0 0 5em;
+            float: none;
+        }
+                .heading h1 {
+                    font-size: 2.4em;
+                    color: white;
+                    font-size: 3em;
+                }
+
+                .heading p {
+                    font-weight: 400;
+                    font-size: 1.2em;
+                    color: white;
+                }
+
+
+main {
+    background: rgba(3, 0, 2, 0.525);
+    display: grid;
+    margin-bottom: -20em;
+}   
+        .program {
+            margin: 5.5em 0 0 10em;
+        }
+            
+        .program h2{
+                color: white;
+                font-size: 2.5em;
+                margin-left: 1.8em;
+            }
+        
+            section ul {
+                display: grid;
+                grid-template-columns: 25rem 0rem;
+                grid-template-rows: 42rem 45rem;
+                grid-gap: 5rem;
+            }
+
+            .hollywood {
+                margin: -3.8em 0em 0em 1.8em;
+                color: rgb(255, 255, 255);
+                position: absolute;
+                font-size: 32px;
+                line-height: 44px;
+            }
+
+            .joker {
+                margin: -2.3em 0em 0em 1.2em;
+                color: rgb(255, 255, 255);
+                position: absolute;
+                font-size: 32px;
+                line-height: 44px;
+            }
+            .joker-img{
+                background: linear-gradient(360deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%), url(image.png);
+            }
+            
+            .parasites {
+                margin: -2.2em 0em 0em 1.3em;
+                color: rgb(255, 255, 255);
+                position: absolute;
+                font-size: 32px;
+                line-height: 44px;
+            }
+
+            .lithouse {
+                margin: -2.3em 0em 0em 1.4em;
+                color: rgb(255, 255, 255);
+                position: absolute;
+                font-size: 32px;
+                line-height: 44px;
+            }
+
+    
+    
+    
+    .jury{
+        margin: 2em 0 0 10em;
+    }
+    
+            .jury h2 {
+             color: white;
+             font-size: 2.5em;
+             margin-left: 1.8em;
+             }
+
+            .guys {
+                display: grid;
+                grid-template-columns: 25rem 0rem;
+                grid-template-rows: 15rem 45rem;
+                grid-gap: 5rem;
+            }
+
+            .guys h4 {
+                font-size: 32px;
+                line-height: 44px;
+                display: grid; 
+                position: absolute;
+            }
+            
+                        .gn{
+                            margin: -4.0em 5.8em 0;
+                        }
+                        
+                        .lft{
+                            margin: -4.0em 5.8em 0;
+                        }
+                        .wkw {
+                            margin: -4.0em 5.8em 0;
+                        }
+
+                        .gws {
+                            margin: -4.0em 5.8em 0;
+                        }
+    
+    
+        footer {
+        display: grid;
+        color: white;
+        background: rgb(199, 46, 46);
+        grid-template-columns: 50em 50em;
+        grid-template-rows: 23.2em;
+        grid-gap: 4rem;
+        margin-bottom: -100em;
+        z-index: 2;
+
+    }
+
+                    .bg-footer{
+                        position: relative;
+                        width: 1440px;
+                        height: 372px;
+                        z-index: 0;
+                    }
+
+
+            .left-about {
+                    z-index: 2;
+                    position: absolute;
+                    margin: -20em 5em 0em 10em;
+                    float: left;
+            }
+                .left-about h2{
+                    font-size: 48px;
+                    line-height: 65px;        
+                }
+
+          .right-follow{
+                display: grid;
+                grid-template-columns: 5em;
+                grid-template-rows: 5em 5em;
+                z-index: 2;
+            }
+
+            .follow-us {
+                font-size: 48px;
+                line-height: 65px;
+                margin: -5.5em -6em 0em 22.1em;
+                position: absolute;
+                padding: -10rem -10rem 0 0;
+                float: right;
+            }
+
+    
+            .right-follow ul {
+                display: grid;
+                float: right;
+                z-index: 1;
+                grid-template-columns: 3em 3em 3em 3em;
+                grid-template-rows: 3em;
+                grid-gap: 1.4em;
+                padding: 0em 0 0em 14.7em;
+                margin: 7em 0em 0em 9.5em;     
+                }
+
+        li.icons {
+            margin: -17em 0 0em 40em;
+            position: relative;
+            letter-spacing: 1em;
+        
+    }
+
+

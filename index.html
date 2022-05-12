@@ -7,76 +7,75 @@
     <title>New Idaho International Film Festival</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
-    
-    <div class="hero-bg">
-        <section class="top">
-            <div class="list-menu"> 
+    <section class="first-page">
+        <header class="top">
+            <nav class="navbar"> 
                 <ul class="top">
-                    <li>Films</li>
-                    <li>Jury</li>
-                    <li class="submit">Submit</li>                       
-               </ul> 
-            </div>  
-            
-            <header>
-                    <div class="festlogo">
-                        <img src="/img/logo.svg" alt="logo">
-                    </div>
-                    
-            </header>
-             
-            <div class="heading">  
-                 <h1>New Idaho<br>International Film <br>Festival</h1>
-                <h5>5 - 21 May 2020<br>Lincoln Centre</h5>
+                    <li class="prog"><a href="#prog">Program</a></li>
+                    <li class="jur"><a href="#jury">Jury</a></li>
+                    <li class="submit"><a href="#submit">Submit</a><li>                       
+                </ul> 
+            </nav>
+            <div class="festlogo">
+                <img src="/img/logo.svg" alt="logo">
             </div>   
-                
-        </section>            
+        </header>
 
-    </div> 
-
-    <section class="program">
-        
-        <h1>Program</h1> 
-            <div class="films">
-                <ul>
-                    <div class="img"><img src="/img/poster1.png" alt=""><li>Once Upon a Time in Hollywood</li></div>
-                    <div class="img"><img src="/img/poster2.png" alt=""><li>Joker</li></div>
-                    <div class="img"><img src="/img/poster3.png" alt=""><li>Parasites</li></div>
-                    <div class="img"><img src="/img/poster4.png" alt=""><li>The Lighthouse</li></div>
-                </ul>
-            </div>     
-     </section>  
-    <section class="jury">
-        <h1>Jury</h1>
-            <div class="names">
-                <ul>
-                    <div class="icons"><img src="/img/jury1.png" alt="Gaspar"><li>Gaspar Noe</li></div>
-                    <div class="icons"><img src="/img/jury2.png" alt="Lars"><li>Lars Von Trier</li></div>
-                    <div class="icons"><img src="/img/jury3.png" alt="Wong"><li>Wong Kar-Wai</li></div>
-                    <div class="icons"><img src="/img/jury4.png" alt="Gus"><li>Gus Van Sant</li></div>
-                </ul>
-            </div>
+        <section class="heading">
+            <h1>New Idaho<br>International Film <br>Festival</h1>
+            <p>5 - 21 May 2020<br>Lincoln Centre</p>
+        </section>                    
     </section>
 
-    <section class="footer">
-        <div class="left-about">
-            <h1>About</h1>
-            <p class="aboutus">Film at Lincoln Center was founded in 1969 to celebrate <br> 
+   <main>     
+        <section id="prog" class="program">
+            <h2>Program</h2> 
+            <ul class="films">
+                <li><img src="/img/poster1.png" alt="" width="450px"><h3 class="hollywood">Once Upon a Time<br>in Hollywood</h3></li>
+                <li><img class="joker-img" src="/img/poster2.png" alt="" width="450px"><h3 class ="joker">Joker</h3></li>
+                <li><img src="/img/poster3.png" alt="" width="450px"><h3 class="parasites">Parasite</h3></li>
+                <li><img src="/img/poster4.png" alt="" width="450px"><h3 class="lithouse">Lighthouse</h3></li>
+            </ul>       
+        </section>  
+    
+        <section id="jury" class="jury">
+            <h2>Jury</h2>
+                <ul class="guys">
+                   <li><img src="/img/jury1.png" alt="Gaspar" width="160px" height="160px"><h4 class="gn">Gaspar<br>Noe</h4></li>
+                   <li><img src="/img/jury2.png" alt="Lars" width="160px" height="160px"><h4 class="lft">Lars <br>Von Trier</h4></li>
+                   <li><img src="/img/jury3.png" alt="Wong" width="160px" height="160px"><h4 class="wkw">Wong<br> Kar-Wai</h4></li>
+                   <li><img src="/img/jury4.png" alt="Gus" width="160px" height="160px"><h4 class="gws">Gus <br>Van Sant</h4></li>
+                </ul>
+        </section>
+    </main>
+
+    <footer class="ftr">
+        <div class="footimg">  
+            <img class="bg-footer"src="/img/footer_bg.png" width="fit">
+        
+             <section class="left-about">
+                  <h2>About</h2>
+                       <p class="aboutus">Film at Lincoln Center was founded in 1969 to celebrate <br> 
                             cinema, to support new filmmakers, and to enhance <br>
                             awareness and understanding of film.</p>
-            <p class="adress">Address: 70 Lincoln Center, New York, NY 10023, US</p>
-        </div>
-        <div class="right-follow">
-            <h1>Follow Us</h1>
-            <ul>
-                <li class="icons"><img src="/img/logo_facebook.svg" alt="facebook"> </li>
-                <li class="icons"><img src="/img/logo_twitter.svg"  alt="twitter"> </li>
-                <li class="icons"><img src="/img/logo_instagram.svg" alt="instagram"></li>
-                <li class="icons"><img src="/img/logo_mail.svg" alt="mail"></li>
-            </ul>
-        </div>
-    </section>
+                      <p class="adress">Address: 70 Lincoln Center, New York, NY 10023, US</p>
+        
+        </section>
+
+        <section class="right-follow">
+            <h2 class="follow-us">Follow Us</h2>
+                <ul class="ico">
+                    <li class="icons"><img src="/img/logo_facebook.svg" alt="facebook"> </li>
+                    <li class="icons"><img src="/img/logo_twitter.svg"  alt="twitter"> </li>
+                    <li class="icons"><img src="/img/logo_instagram.svg" alt="instagram"></li>
+                    <li class="icons"><img src="/img/logo_mail.svg" alt="mail"></li>
+                </ul>
+        </section>
+
+    </div>
+  </footer>
 
 </body>
 </html>
