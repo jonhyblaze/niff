@@ -5,23 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Idaho International Film Festival</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style-box.css">
 </head>
 
 <body>
     <section class="first-page">
-        <header class="top">
-            <nav class="navbar"> 
-                <ul class="top">
-                    <li class="prog"><a href="#prog">Program</a></li>
-                    <li class="jur"><a href="#jury">Jury</a></li>
-                    <li class="submit"><a href="#submit">Submit</a><li>                       
-                </ul> 
-            </nav>
-            <div class="festlogo">
-                <img src="/img/logo.svg" alt="logo">
-            </div>   
-        </header>
+      <nav class="topheader">
+        <ul class="topmenu">
+          <li class="prog"><a class="pro" href="#prog">Program</a></li>
+          <li class="jur"><a calss="ju" href="#jury">Jury</a></li>
+          <li class="submit"><a class="sub" href="#submit">Submit</a><li>                       
+        </ul> 
+
+        <img class="logo" src="/img/logo.svg" alt="logo">
+       </nav>
 
         <section class="heading">
             <h1>New Idaho<br>International Film <br>Festival</h1>
@@ -30,52 +27,56 @@
     </section>
 
    <main>     
-        <section id="prog" class="program">
-            <h2>Program</h2> 
-            <ul class="films">
-                <li><img src="/img/poster1.png" alt="" width="450px"><h3 class="hollywood">Once Upon a Time<br>in Hollywood</h3></li>
-                <li><img class="joker-img" src="/img/poster2.png" alt="" width="450px"><h3 class ="joker">Joker</h3></li>
-                <li><img src="/img/poster3.png" alt="" width="450px"><h3 class="parasites">Parasite</h3></li>
-                <li><img src="/img/poster4.png" alt="" width="450px"><h3 class="lithouse">Lighthouse</h3></li>
-            </ul>       
-        </section>  
+       <section id="prog" class="program">
+           <h2>Program</h2> 
+        
+                <div class="img-hollywood"><h3 class="hollywood">Once Upon a Time<br>in Hollywood</h3></div>
+                <div class="img-joker"><h3 class ="joker">Joker</h3></div>
+          
+
+            
+              <div class="img-parasites"><h3 class="parasites">Parasite</h3></div>
+              <div class="img-lithouse"><h3 class="lithouse">Lighthouse</h3></div>
+           
+       </section>  
     
+  
+  
         <section id="jury" class="jury">
             <h2>Jury</h2>
                 <ul class="guys">
-                   <li><img src="/img/jury1.png" alt="Gaspar" width="160px" height="160px"><h4 class="gn">Gaspar<br>Noe</h4></li>
-                   <li><img src="/img/jury2.png" alt="Lars" width="160px" height="160px"><h4 class="lft">Lars <br>Von Trier</h4></li>
-                   <li><img src="/img/jury3.png" alt="Wong" width="160px" height="160px"><h4 class="wkw">Wong<br> Kar-Wai</h4></li>
-                   <li><img src="/img/jury4.png" alt="Gus" width="160px" height="160px"><h4 class="gws">Gus <br>Van Sant</h4></li>
+                   <li class="noa"><div></div><h4 class="noah">Gaspar<br>Noe</h4></li>
+                   <li class="lars"><div></div><h4>Lars<br>Von Trier</h4></li>
+                   <li class="wong"><div></div> <h4>Wong<br>Kar-Wai</h4></li>
+                   <li class="gus"><div></div><h4>Gus<br>Van Sant</h4></li>
                 </ul>
         </section>
     </main>
 
-    <footer class="ftr">
-        <div class="footimg">  
-            <img class="bg-footer"src="/img/footer_bg.png" width="fit">
-        
-             <section class="left-about">
+
+
+    
+    <footer>
+        <div class="ftr-bg">
+           <div class="info"> 
+            <div class="left-about">
                   <h2>About</h2>
-                       <p class="aboutus">Film at Lincoln Center was founded in 1969 to celebrate <br> 
-                            cinema, to support new filmmakers, and to enhance <br>
-                            awareness and understanding of film.</p>
-                      <p class="adress">Address: 70 Lincoln Center, New York, NY 10023, US</p>
-        
-        </section>
+                  <p class="about-text">Film at Lincoln Center was founded in 1969 to celebrate cinema, to support new filmmakers, and to enhance awareness and understanding of film.</p>
+                  <p class="adress">Address: 70 Lincoln Center, New York, NY 10023, US</p>
+            </div>
 
-        <section class="right-follow">
-            <h2 class="follow-us">Follow Us</h2>
+            <div class="right-follow">
+              <h2 class="follow-us">Follow Us</h2>
                 <ul class="ico">
-                    <li class="icons"><img src="/img/logo_facebook.svg" alt="facebook"> </li>
-                    <li class="icons"><img src="/img/logo_twitter.svg"  alt="twitter"> </li>
-                    <li class="icons"><img src="/img/logo_instagram.svg" alt="instagram"></li>
-                    <li class="icons"><img src="/img/logo_mail.svg" alt="mail"></li>
+                    <li class="icons"><div class="facebook"></div></li>
+                    <li class="icons"><div class="twitter"></div> </li>
+                    <li class="icons"><div class="insta"></div></li>
+                    <li class="icons"><div class="mail"></div></li>
                 </ul>
-        </section>
-
-    </div>
-  </footer>
+            </div>
+        </div>
+      </div>
+    </footer>
 
 </body>
 </html>

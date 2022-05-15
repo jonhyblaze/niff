@@ -1,6 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
 
 
+
+/* table of contents
+
+1. global styles
+
+2. typography
+
+3. components
+    3.1 buttons
+
+*/
+
+ 
+    /*  ==============
+         global styles
+        ==============  */
+
+    *,
+    *::before,
+    *::after { 
+        box-sizing: border-box; 
+    }
+
 *{
     box-sizing: border-box;
 
@@ -41,6 +64,7 @@ a{
             color: white;
             position: relative;
             display: block;
+            
             padding: .5em 0em 0em 1em;
             width: 98vw;
     }  
@@ -50,6 +74,11 @@ a{
                 position: relative;
                 text-align: left;
                 padding: 3em 0 0 6em;
+            }
+
+            .logo:hover {
+                color: black;
+                outline-color: black;
             }
 
 
@@ -75,14 +104,19 @@ a{
                             background: white;
                         }
                         
-                        li a:hover{
+                       
+
+
+                        li a:hover {
                             color: inherit;
                         }
-                        .prog:hover{
-                            border-bottom: 2px solid white;
+                        .prog:hover {
+                            
+                           border-bottom: 2px solid white;
                         }
 
-                        .jur:hover{
+                        .jur:hover {
+                            
                             border-bottom: 2px solid white;
                         }
             
